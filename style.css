@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    color: aliceblue;
+    margin: 0%;
+    font-family: 'Poppins',sans-serif;
+    height: 100vh;
+    background-position: center center;
+     background: #5a87da;
+     background: linear-gradient(rgba(27, 27, 32, 0.5), rgba(16, 17, 22, 0.6)),url("images/background.jpg");
+     background-size: fill;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 3rem;
+     }
+ 
+h1{
+    font-size: 4em;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: center;
+    
+}
+
+.countdown-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 90vw;
+}
+
+.big-text{
+    font-size: 5rem;
+    margin: 0 auto;
+    
+}
+
+.countdown-elm{
+    text-align: center;
+    padding: 2%;
+}
+
+.countdown-elm span{
+    font-size: 2rem;
+    padding: 2%;
+}
+
+
+
+
+@media (max-width:900px){
+
+    body{
+        height: 100%;
+        padding: 3%;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+
+    .countdown-elm {
+        text-align: center;
+        padding: 1%;
+      }
+    
+    .big-text{
+        font-size: 3rem;
+    }
+
+    .countdown-container{
+        flex-direction: column;
+    }
+}
